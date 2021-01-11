@@ -39,6 +39,10 @@ public class MovieRepositoryImpl implements MovieRepository {
                 .map(m -> Movie.builder()
                         .title(m.getTitle())
                         .link(m.getLink())
+                        .image(m.getTitle())
+                        .subtitle(m.getTitle())
+                        .director(m.getTitle())
+                        .actor(m.getTitle())
                         .userRating(m.getUserRating())
                         .build())
                 .collect(Collectors.toList());

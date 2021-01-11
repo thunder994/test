@@ -22,6 +22,8 @@ public class ResponseMovie {
     public static class Item {
         private String title;
         private String link;
+        private String image;
+        private String subtitle;
         private String actor;
         private String director;
         private float userRating;
